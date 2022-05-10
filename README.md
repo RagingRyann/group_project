@@ -10,13 +10,17 @@ An analyis of heart disease data from 1988 using four databases: Cleveland, Hung
 * Data Sources: 
 - heart.csv
 
-1. Topic Selected: Heart Disease predictability 
-2. Why: According to the Centers for Disease Control (CDC), 659,000 people in the United States die from heart disease each year or 1 in every 4 deaths.
+## Software: 
+- Pandas, Postgres, Tableau
+
+1. What Topic Selected: Heart Disease predictability 
+2. Why: According to the Centers for Disease Control (CDC), 659,000 people in the United States die from heart disease each year or 1 in every 4 deaths.  Therefore, being able to predict and control these risk factors will help save lives.
 3. Description: 4 Databases: Cleveland, Hungary, Switzerland, and Long Beach V with 14 columns of predicting factors. 
 4. Questions to answer:
     - What are the major predictors of heart disease?
-    - What is the gender-specific differences?
-    - What risk factors are modifiable?
+    - What, if any, are the gender-specific differences?
+    - What, if any, risk factors are modifiable?
+    - Have risk factors changed over time?
 
 
 Preliminary ML Model:
@@ -25,7 +29,10 @@ Preliminary ML Model:
     - Target: Column 14 (ie. Presence of Heart Disease)
 
 Preliminary Database:
-- Uses Postgres 
+- Uses Postgres database.
 
 Preliminary Technologies:
 - Uses Tableau to display information. 
+
+Communication Protocol:
+- Email, Text, Slack
