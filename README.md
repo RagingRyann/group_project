@@ -1,7 +1,7 @@
 # Group_Project
 
 # Project Overview:
-An analyis of heart disease data from 1988 using four databases: Cleveland, Hungary, Switzerland, and Long Beach V. It contains 76 attributes, including the predicted attribute, but all published experiments refer to a subset of 14. The "target" field refers to the presence or absence of heart disease in the patient. 
+An analysis of heart disease data from 1988 using four hospital databases: Cleveland, Hungary, Switzerland, and Long Beach V. It contains 76 attributes, including the predicted attribute, but all published experiments refer to a subset of 14 features. The "target" field refers to the presence or absence of heart disease in the patient. 
 
 [link to dashboard](link here)
 
@@ -13,7 +13,7 @@ An analyis of heart disease data from 1988 using four databases: Cleveland, Hung
 ## Software: 
 - Pandas, Postgres, Tableau
 
-1. What Topic Selected: Heart Disease predictability 
+1. What Topic Selected: Heart Disease Predictability 
 2. Why: According to the Centers for Disease Control (CDC), 659,000 people in the United States die from heart disease each year or 1 in every 4 deaths.  Therefore, being able to predict and control these risk factors will help save lives.
 3. Description: 4 Databases: Cleveland, Hungary, Switzerland, and Long Beach V with 14 columns of predicting factors. 
 4. Questions to answer:
@@ -36,4 +36,4 @@ Preliminary Technologies:
 - Uses Tableau to display information. 
 
 Communication Protocol:
-- Email, Text, Slack
+- Email, Text, Slack, Zoom
