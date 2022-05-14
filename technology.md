@@ -10,3 +10,6 @@ Our current plan is to use SciKit-Learn as our machine learning library, using a
 
 ## Dashboard
 We will be using Tableau to create our interactive dashboard.  
+
+## Presentation Link
+https://docs.google.com/presentation/d/1ngo6tRvbdELgjAdtwzgYFL6trayqPmxuBI8svCjsym4/edit#slide=id.p
