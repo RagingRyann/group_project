@@ -27,10 +27,10 @@ An analysis of heart disease data from 1988 using four hospital databases: Cleve
 
 
 Preliminary ML Model:
-- uses logistical regession to predict target accuracy. 
-    - Features: Columns 1-13 (ie. Age, Sex, Chest pain, Cholesterol Level, Fasting blood glucose, etc)
+- uses logistical regression to predict target accuracy. 
+    - Features: Columns 1-13 (ie. Age, Sex, Chest pain, Cholesterol Level, Fasting blood glucose, etc.)
     - Target: Column 14 (ie. Presence of Heart Disease)
-    - Why?: Logistical Regression was chosen secondary to the binary outcome of the dataset being used (ie. presence or absence of Heart Disease). 
+    - Why?: Logistical Regression was chosen secondary to the binary outcome of the dataset being used (ie. Presence or Absence of Heart Disease). 
 
 Preliminary Database:
 - Uses PostgreSQL database.
