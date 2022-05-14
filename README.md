@@ -11,7 +11,7 @@ An analysis of heart disease data from 1988 using four hospital databases: Cleve
     - heart.csv
 
 ## Software: 
-    - Pandas, Postgres, Tableau
+    - Pandas, PostgreSQL, Tableau
     
 ## Content:
 
