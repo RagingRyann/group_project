@@ -5,6 +5,9 @@ An analysis of heart disease data from 1988 using four hospital databases: Cleve
 
 [link to dashboard](link here)
 
+Dashboard Template:
+<img width="989" alt="Screen Shot 2022-05-16 at 6 41 10 PM" src="https://user-images.githubusercontent.com/93015602/168712375-0abfddf8-e52d-46df-a3f3-a220fa60ba6f.png">
+
 ## Resources:
 
 * Data Sources: 
