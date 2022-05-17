@@ -6,15 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HEART DISEASE</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <!-- Add Jumbotron to Header -->
-        <div class="jumbotron text-center"
-            style="background-image: url('https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/did_you_know_this_could_lead_to_heart_disease_slideshow/493ss_thinkstock_rf_heart_illustration.jpg?resize=652px:*&output-quality=75'); background-position: center; background-size: cover;">
-            <h1 style="color: white;">Heart Disease Dashboard</h1>
+        <div class="row">
+            <!-- Add Jumbotron to Header -->
+            <div class="col-md-12 jumbotron text-center">
+
+                <h1 style="color: rgb(0, 0, 0);">Heart Disease Dashboard</h1>
+            </div>
+            <p style="color: rgb(0, 0, 0);">Use the interactive charts below to explore the dataset</p>
 
             <div class='tableauPlaceholder' id='viz1652794017306' style='position: relative'><noscript><a href='#'><img
                             alt='Dashboard 1 '
@@ -35,8 +39,9 @@
                     <param name='filter' value='publish=yes' />
                 </object></div>
             <script
-                type='text/javascript'>                    var divElement = document.getElementById('viz1652794017306'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-
+                type='text/javascript'>var divElement = document.getElementById('viz1652794017306'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+            <script src="charts.js"></script>
 </body>
 
 </html>
