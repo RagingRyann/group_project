@@ -6,7 +6,7 @@ An analysis of heart disease data from 1988 using four hospital databases: Cleve
 [link to Tableau dashboard](https://public.tableau.com/shared/QKNKRGSJG?:display_count=n&:origin=viz_share_link)
 
 Dashboard Template:
-<img width="989" alt="Screen Shot 2022-05-16 at 6 41 10 PM" src="https://user-images.githubusercontent.com/93015602/168712375-0abfddf8-e52d-46df-a3f3-a220fa60ba6f.png">
+<img width="1143" alt="Screen Shot 2022-05-17 at 8 11 28 AM" src="https://user-images.githubusercontent.com/93015602/168845719-c14706d7-0527-446f-962d-457b5b41d72d.png">
 
 ## Resources:
 
