@@ -3,7 +3,7 @@
 # Project Overview:
 An analysis of heart disease data from 1988 using four hospital databases: Cleveland, Hungary, Switzerland, and Long Beach V. It contains 76 attributes, including the predicted attribute, but all published experiments refer to a subset of 14 features. The "target" field refers to the presence or absence of heart disease in the patient. 
 
-[link to dashboard](link here)
+[link to Tableau dashboard](https://public.tableau.com/shared/QKNKRGSJG?:display_count=n&:origin=viz_share_link)
 
 Dashboard Template:
 <img width="989" alt="Screen Shot 2022-05-16 at 6 41 10 PM" src="https://user-images.githubusercontent.com/93015602/168712375-0abfddf8-e52d-46df-a3f3-a220fa60ba6f.png">
