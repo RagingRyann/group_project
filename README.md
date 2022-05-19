@@ -5,6 +5,8 @@ An analysis of heart disease data from 1988 using four hospital databases: Cleve
 
 [link to Tableau dashboard](https://public.tableau.com/shared/QKNKRGSJG?:display_count=n&:origin=viz_share_link)
 
+[link to Google Slides](https://docs.google.com/presentation/d/1ngo6tRvbdELgjAdtwzgYFL6trayqPmxuBI8svCjsym4/edit?usp=sharing)
+
 Dashboard Template:
 <img width="1292" alt="Screen Shot 2022-05-17 at 12 35 36 PM" src="https://user-images.githubusercontent.com/93015602/168895752-01a6ef15-62ae-4a43-a472-4aa9e47721c9.png">
 
@@ -28,6 +30,9 @@ Dashboard Template:
     - What, if any, risk factors are modifiable?
     - Have risk factors changed over time?
 
+5. Description of data exploration phase: Data was explored using jupyter notebook and pandas; no null values were present; all data points were utilized.
+
+6. Description of the analysis phase: Data was separated into several key areas - Age, Gender, Average values for continuous integer columns, Max / Min values. 
 
 Preliminary ML Model:
 - uses logistical regression to predict target accuracy. 
