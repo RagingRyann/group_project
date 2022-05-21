@@ -11,7 +11,10 @@ function init() {
 		var sampleAges = data.map(person => person.age);
 		console.log(sampleAges);
 
-		sampleAges.forEach((sample) => {
+		var sampleAgesSorted = sampleAges.sort((a,b) => a-b);
+		console.log(sampleAgesSorted);
+
+		sampleAgesSorted.forEach((sample) => {
 			selector
 				.append("option")
 				.text(sample)
@@ -99,9 +102,9 @@ function buildCharts(age) {
 
 	// 5. Create the layout for the gauge chart.
 	var gaugeLayout = {
-		width: 500,
-		height: 400,
-		margin: { t: 25, r: 25, l: 25, b: 25 },
+		width: 250,
+		height: 250,
+		margin: { t: 25, r: 50, l: 25, b: 25 },
 		font: { color: "darkblue", family: "Arial" }
 	};
 
@@ -138,9 +141,9 @@ function buildCharts(age) {
 
 	// 5. Create the layout for the gauge chart.
 	var gaugeLayout = {
-		width: 500,
-		height: 400,
-		margin: { t: 25, r: 25, l: 25, b: 25 },
+		width: 250,
+		height: 250,
+		margin: { t: 25, r: 50, l: 25, b: 25 },
 		font: { color: "darkblue", family: "Arial" }
 	};
 
