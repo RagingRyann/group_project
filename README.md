@@ -62,9 +62,7 @@ Secondary ML Model:
 
 Database:
 - Uses Postgres database.
-- (Adam to insert images here of tables)
-
-- Why?: Logistical Regression was chosen secondary to the binary outcome of the dataset being used (ie. Presence or Absence of Heart Disease). 
+- (Adam to insert images here of tables) 
 
 Technologies:
 - Jupyter Notebook / Pandas: Used for data exploration and Machine Learning analysis.
