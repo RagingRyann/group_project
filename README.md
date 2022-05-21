@@ -35,11 +35,13 @@ Dashboard Template:
     - What, if any, risk factors are modifiable?
     - Have risk factors changed over time?
 
-5. Description of data exploration phase: Data was explored using jupyter notebook and pandas; no null values were present; all data points were utilized.
+5. Description of data exploration phase: Data was explored using jupyter notebook and pandas; no null values were present; all data points were utilized. 
 
-6. Description of the analysis phase: 
+(Ryann to insert graphs here)
 
-Data was separated into several key areas - Age, Gender, Average values for continuous integer columns, Max / Min values. 
+6. Description of the analysis phase: Data was separated into several key areas - Age, Gender, Average values for continuous integer columns, Max / Min values (ie. blood pressure and cholesterol).
+
+(Ryann to insert graphs here)
 
 Preliminary ML Model:
 - uses logistical regression to predict target accuracy. 
@@ -49,20 +51,25 @@ Preliminary ML Model:
     - Accuracy Outcome: 83%
 
 Secondary ML Model:
-- uses Random Forest to predict target accuracy and determine feature heirarchy importance. 
+- Uses Random Forest to predict target accuracy and determine feature heirarchy importance. 
+    - Features: Columns 1-13 (ie. Age, Sex, Chest pain, Cholesterol Level, Fasting blood glucose, etc.)
+    - Target: Column 14 (ie. Presence of Heart Disease)
+    - Why: RF was used in order to rank features of importance to determine modifiable vs non-modifiable risk factors.
 - Accuracy Outcome: 100% (concern for overfitting given accuracy score). 
-- Top 3 features: "Chest Pain", "Number of Vessels Occluded", "ST Depression"
+- Top 3 features: "Chest Pain", "Number of Vessels Occluded", "ST Depression";
+- Top Modifiable features: "Cholesterol" and "Blood Pressure" (See Fig ???);
 
 Database:
 - Uses Postgres database.
-- (insert image here of tables)
+- (Adam to insert images here of tables)
 
 - Why?: Logistical Regression was chosen secondary to the binary outcome of the dataset being used (ie. Presence or Absence of Heart Disease). 
 
 Technologies:
 - Jupyter Notebook / Pandas: Used for data exploration and Machine Learning analysis.
-- Postgres / pgAdmin: Used to host data. 
-- Tableau: Used to display interactive information. 
+- Postgres / pgAdmin / AWS: Used to host data on server.
+- Tableau: Used to display interactive information via data visualizations.
 
 Communication Protocol:
-- Email, Text, Slack, Zoom
+- Technology / Software communication: Heart.csv was read as dataframe into Pandas using Python; ETL was performed and exported to SQL database on AWS; Tableau was utilized to perform data visualizations which were then displayed using JavaScript / HTML / CSS on index.html file. 
+- Group communication: Email, Text, Slack, Zoom
