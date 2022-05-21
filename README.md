@@ -41,7 +41,8 @@ Dashboard Template:
 
 6. Description of the analysis phase: Data was separated into several key areas - Age, Gender, Average values for continuous integer columns, Max / Min values (ie. blood pressure and cholesterol).
 
-(Ryann to insert graphs here)
+![chol_curve](https://user-images.githubusercontent.com/96348953/169661380-167cb74c-f819-4fde-95d5-a786bdfc4dde.png)
+
 
 Preliminary ML Model:
 - uses logistical regression to predict target accuracy. 
