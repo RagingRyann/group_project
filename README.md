@@ -60,6 +60,8 @@ Secondary ML Model:
 - Top 3 features: "Chest Pain", "Number of Vessels Occluded", "ST Depression";
 - Top Modifiable features: "Cholesterol" and "Blood Pressure" (See Fig ???);
 
+<img width="161" alt="Screen Shot 2022-05-21 at 10 31 07 AM" src="https://user-images.githubusercontent.com/93015602/169662830-e1131d89-496a-4106-890b-21d206532822.png">
+
 Database:
 - Uses Postgres database.
 - (Adam to insert images here of tables) 
