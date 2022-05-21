@@ -52,7 +52,7 @@ Preliminary ML Model:
     - Accuracy Outcome: 83%
 
 Secondary ML Model:
-- Uses Random Forest to predict target accuracy and determine feature heirarchy importance. 
+- Uses Random Forest to predict target accuracy and determine feature hierarchy importance. 
     - Features: Columns 1-13 (ie. Age, Sex, Chest pain, Cholesterol Level, Fasting blood glucose, etc.)
     - Target: Column 14 (ie. Presence of Heart Disease)
     - Why: RF was used in order to rank features of importance to determine modifiable vs non-modifiable risk factors.
