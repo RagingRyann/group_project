@@ -1,14 +1,14 @@
-0,1
-0.14750267007193346,cp
-0.11727152247745765,ca
-0.11515327745127686,oldpeak
-0.11136723585709282,thal
-0.1086930604589272,thalach
-0.08684496682547499,age
-0.08042382987543027,chol
-0.06933079143239894,trestbps
-0.04986034636639046,exang
-0.042214717996274916,slope
-0.03861003184132702,sex
-0.022164427700171532,restecg
-0.01056312164584367,fbs
+% Risk,Risk Factors
+14.8,Chest Pain
+11.7,Fluoro Vessels Occluded
+11.5,Exercise ST Depression
+11.1,Type of Defect
+10.9,Max Heart Rate
+8.7,Age
+8.0,Cholesterol
+6.9,Resting Blood Pressure
+5.0,Exercise Angina
+4.2,Peak ST Slope
+3.9,Sex
+2.2,Resting EKG
+1.1,Fasting Blood Sugar

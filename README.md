@@ -41,8 +41,12 @@ Dashboard Template:
 
 6. Description of the analysis phase: Data was separated into several key areas - Age, Gender, Average values for continuous integer columns, Max / Min values (ie. blood pressure and cholesterol).
 
-(Ryann to insert graphs here)
+![hd_stats_table](https://user-images.githubusercontent.com/96348953/169701996-b0c8bd06-4017-42ab-9d61-3485d974ce0e.PNG)
 
+![chol_curve](https://user-images.githubusercontent.com/96348953/169661380-167cb74c-f819-4fde-95d5-a786bdfc4dde.png)
+![thal_value_distrib](https://user-images.githubusercontent.com/96348953/169702042-23ab0418-b4dc-421f-a0b9-f1b8e6384b92.PNG)
+
+7.
 Preliminary ML Model:
 - uses logistical regression to predict target accuracy. 
     - Features: Columns 1-13 (ie. Age, Sex, Chest pain, Cholesterol Level, Fasting blood glucose, etc.)
@@ -51,7 +55,7 @@ Preliminary ML Model:
     - Accuracy Outcome: 83%
 
 Secondary ML Model:
-- Uses Random Forest to predict target accuracy and determine feature heirarchy importance. 
+- Uses Random Forest to predict target accuracy and determine feature hierarchy importance. 
     - Features: Columns 1-13 (ie. Age, Sex, Chest pain, Cholesterol Level, Fasting blood glucose, etc.)
     - Target: Column 14 (ie. Presence of Heart Disease)
     - Why: RF was used in order to rank features of importance to determine modifiable vs non-modifiable risk factors.
@@ -59,11 +63,11 @@ Secondary ML Model:
 - Top 3 features: "Chest Pain", "Number of Vessels Occluded", "ST Depression";
 - Top Modifiable features: "Cholesterol" and "Blood Pressure" (See Fig ???);
 
+<img width="161" alt="Screen Shot 2022-05-21 at 10 31 07 AM" src="https://user-images.githubusercontent.com/93015602/169662830-e1131d89-496a-4106-890b-21d206532822.png">
+
 Database:
 - Uses Postgres database.
-- (Adam to insert images here of tables)
-
-- Why?: Logistical Regression was chosen secondary to the binary outcome of the dataset being used (ie. Presence or Absence of Heart Disease). 
+- (Adam to insert images here of tables) 
 
 Technologies:
 - Jupyter Notebook / Pandas: Used for data exploration and Machine Learning analysis.
