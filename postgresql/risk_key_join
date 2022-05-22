@@ -1,0 +1,18 @@
+SELECT risk.* ,  
+key1.heart_disease as heart_disease_key , 
+key2.resting_ecg_results as resting_ecg_results_key ,
+key3.sex as sex_key,
+key4.chest_pain_type as chest_pain_type_key,
+key5.fasting_blood_sugar as fasting_blood_sugar_key,
+key6.st_slope_elevation as st_slope_elevation_key,
+key7.exercise_induced_angina as exercise_induced_angina_key,
+key8.thal as thal_key
+FROM risk_factors as risk
+LEFT JOIN legend_key as key1 on risk.heart_disease = key1.heart_disease_code
+LEFT JOIN legend_key as key2 on risk.resting_ecg_results = key2.resting_ecg_results_code
+LEFT JOIN legend_key as key3 on risk.sex = key3.sex_code
+LEFT JOIN legend_key as key4 on risk.chest_pain_type = key4.chest_pain_code
+LEFT JOIN legend_key as key5 on risk.fasting_blood_sugar = key5.fasting_blood_sugar_code
+LEFT JOIN legend_key as key6 on risk.st_slope_elevation = key6.st_slope_elevation_code
+LEFT JOIN legend_key as key7 on risk.exercise_induced_angina = key7.exercise_induced_angincode
+LEFT JOIN legend_key as key8 on risk.thal = key8.thal_code
