@@ -3,6 +3,11 @@
 # Project Overview:
 An analysis of heart disease data from 1988 using four hospital databases: Cleveland, Hungary, Switzerland, and Long Beach V. It contains 76 attributes, including the predicted attribute, but all published experiments refer to a subset of 14 features. The "target" field refers to the presence or absence of heart disease in the patient. 
 
+* Outline: 
+    - index.html /GitHub Pages: To visualize final dashboard
+    - heart_data2_sql.ipynb: To visualize data cleaning and SQL database export
+    - heart_ML_LogReg.ipynb, heart_ML_RandomForest.ipynb:  Machine learning models
+
 [link to Tableau dashboard](https://public.tableau.com/shared/QKNKRGSJG?:display_count=n&:origin=viz_share_link)
 
 [link to Google Slides](https://docs.google.com/presentation/d/1ngo6tRvbdELgjAdtwzgYFL6trayqPmxuBI8svCjsym4/edit?usp=sharing)
@@ -15,10 +20,10 @@ Dashboard Template:
 * Data Sources: 
     - heart.csv
     - [Link to Kaggle Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset?select=heart.csv)
+    - heart_clean.csv
 
 ## Software: 
 
-    - Pandas, Postgres / pgAdmin, Tableau
     - Languages: HTML, CSS, JS
     - Pandas, PostgreSQL, Tableau
     
@@ -33,21 +38,17 @@ Dashboard Template:
     - What are the major predictors of heart disease?
     - What, if any, are the gender-specific differences?
     - What, if any, risk factors are modifiable?
-    - Have risk factors changed over time?
 
 5. Description of data exploration phase: Data was explored using jupyter notebook and pandas; no null values were present; all data points were utilized. 
 
-(Ryann to insert graphs here)
+![hd_stats_table](https://user-images.githubusercontent.com/96348953/169701996-b0c8bd06-4017-42ab-9d61-3485d974ce0e.PNG)
 
 6. Description of the analysis phase: Data was separated into several key areas - Age, Gender, Average values for continuous integer columns, Max / Min values (ie. blood pressure and cholesterol).
-
-![hd_stats_table](https://user-images.githubusercontent.com/96348953/169701996-b0c8bd06-4017-42ab-9d61-3485d974ce0e.PNG)
 
 ![chol_curve](https://user-images.githubusercontent.com/96348953/169661380-167cb74c-f819-4fde-95d5-a786bdfc4dde.png)
 ![thal_value_distrib](https://user-images.githubusercontent.com/96348953/169702042-23ab0418-b4dc-421f-a0b9-f1b8e6384b92.PNG)
 
-7.
-Preliminary ML Model:
+7. Preliminary ML Model:
 - uses logistical regression to predict target accuracy. 
     - Features: Columns 1-13 (ie. Age, Sex, Chest pain, Cholesterol Level, Fasting blood glucose, etc.)
     - Target: Column 14 (ie. Presence of Heart Disease)
