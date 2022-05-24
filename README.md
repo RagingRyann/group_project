@@ -20,7 +20,7 @@ Dashboard Template:
 * Data Sources: 
     - heart.csv
     - [Link to Kaggle Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset?select=heart.csv)
-    - heart_clean.csv
+    - heart_clean.csv (renamed columns to match pgAdmin)
 
 ## Software: 
 
