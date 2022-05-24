@@ -58,7 +58,7 @@ Dashboard Template:
     - Why?: Logistcal Regression was chosen secondary to the binary outcome of the dataset being used (ie. Presence or absence of Heart Disease).
     - Accuracy Outcome: 83%
 
-Secondary ML Model:
+Secondary ML Model (file used:  [Heart_ML_RandomForest.ipynb](https://github.com/RagingRyann/group_project/blob/main/Heart_ML_RandomForest.ipynb)):
 - Uses Random Forest to predict target accuracy and determine feature hierarchy importance. 
     - Features: Columns 1-13 (ie. Age, Sex, Chest pain, Cholesterol Level, Fasting blood glucose, etc.)
     - Target: Column 14 (ie. Presence of Heart Disease)
@@ -70,13 +70,13 @@ Secondary ML Model:
 <img width="161" alt="Screen Shot 2022-05-21 at 10 31 07 AM" src="https://user-images.githubusercontent.com/93015602/169662830-e1131d89-496a-4106-890b-21d206532822.png">
 
 Database:
-- Uses Postgres database.
+- Uses PostgreSQL database.
 
 - ![image](https://user-images.githubusercontent.com/90944163/169930074-5bb4a4ea-adc1-4cd9-a6ee-f24ace81800d.png)
 
 - ![image](https://user-images.githubusercontent.com/90944163/169930136-9b68c406-3b4b-4929-9614-697e38041565.png)
 
-- ![Screen Shot 2022-05-23 at 8 34 33 PM](https://user-images.githubusercontent.com/90944163/169930993-dfdb9d88-5af5-48e8-b944-18c98f3564ff.png)
+- ![Screen Shot 2022-05-23 at 8 34 33 PM](https://user-images.githubusercontent.com/90944163/169930993-dfdb9d88-5af5-48e8-b944-18c98f3564ff.png) (file used:  [heart_data_to_sql.ipynb](https://github.com/RagingRyann/group_project/blob/main/heart_data_to_sql.ipynb))
 
 Technologies:
 - Jupyter Notebook / Pandas: Used for data exploration and Machine Learning analysis.
