@@ -68,7 +68,12 @@ Secondary ML Model:
 
 Database:
 - Uses Postgres database.
-- (Adam to insert images here of tables) 
+
+- ![image](https://user-images.githubusercontent.com/90944163/169930074-5bb4a4ea-adc1-4cd9-a6ee-f24ace81800d.png)
+
+- ![image](https://user-images.githubusercontent.com/90944163/169930136-9b68c406-3b4b-4929-9614-697e38041565.png)
+
+-
 
 Technologies:
 - Jupyter Notebook / Pandas: Used for data exploration and Machine Learning analysis.
