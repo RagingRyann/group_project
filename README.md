@@ -73,7 +73,7 @@ Database:
 
 - ![image](https://user-images.githubusercontent.com/90944163/169930136-9b68c406-3b4b-4929-9614-697e38041565.png)
 
--
+- ![image](https://user-images.githubusercontent.com/90944163/169930748-47b8fe0b-fab7-4266-8463-70c7728b389d.png)
 
 Technologies:
 - Jupyter Notebook / Pandas: Used for data exploration and Machine Learning analysis.
