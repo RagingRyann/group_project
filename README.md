@@ -8,7 +8,9 @@ An analysis of heart disease data from 1988 using four hospital databases: Cleve
     - heart_data2_sql.ipynb: To visualize data cleaning and SQL database export
     - heart_ML_LogReg.ipynb, heart_ML_RandomForest.ipynb:  Machine learning models
 
-[link to Tableau dashboard](https://public.tableau.com/shared/QKNKRGSJG?:display_count=n&:origin=viz_share_link)
+[link to Tableau dashboard 1](https://public.tableau.com/shared/QKNKRGSJG?:display_count=n&:origin=viz_share_link)
+
+[link to Tableau dashboard 2](https://public.tableau.com/views/group_project_a/Sheet5?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 [link to Google Slides](https://docs.google.com/presentation/d/1ngo6tRvbdELgjAdtwzgYFL6trayqPmxuBI8svCjsym4/edit?usp=sharing)
 
@@ -73,7 +75,7 @@ Database:
 
 - ![image](https://user-images.githubusercontent.com/90944163/169930136-9b68c406-3b4b-4929-9614-697e38041565.png)
 
-- ![image](https://user-images.githubusercontent.com/90944163/169930748-47b8fe0b-fab7-4266-8463-70c7728b389d.png)
+- ![Screen Shot 2022-05-23 at 8 34 33 PM](https://user-images.githubusercontent.com/90944163/169930993-dfdb9d88-5af5-48e8-b944-18c98f3564ff.png)
 
 Technologies:
 - Jupyter Notebook / Pandas: Used for data exploration and Machine Learning analysis.
