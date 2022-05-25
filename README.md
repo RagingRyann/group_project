@@ -9,19 +9,15 @@ An analysis of heart disease data from 1988 using four hospital databases: Cleve
     - [heart_ML_LogReg.ipynb](https://github.com/RagingRyann/group_project/blob/main/Machine%20Learning/Heart_ML_LogReg.ipynb), [heart_ML_RandomForest.ipynb](https://github.com/RagingRyann/group_project/blob/main/Machine%20Learning/Heart_ML_RandomForest.ipynb):  Machine learning models
     - [ETL.ipynb](https://github.com/RagingRyann/group_project/blob/main/ETL.ipynb):  Data Exploration
 
-[link to Tableau dashboard 1](https://public.tableau.com/shared/QKNKRGSJG?:display_count=n&:origin=viz_share_link)
-
-[link to Tableau dashboard 2](https://public.tableau.com/views/group_project_a/Sheet5?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
-
 [link to Google Slides](https://docs.google.com/presentation/d/1ngo6tRvbdELgjAdtwzgYFL6trayqPmxuBI8svCjsym4/edit?usp=sharing)
 
-[Dashboard](https://ragingryann.github.io/group_project/) Template:
+[Dashboard Link](https://ragingryann.github.io/group_project/)
 <img width="1292" alt="Screen Shot 2022-05-17 at 12 35 36 PM" src="https://user-images.githubusercontent.com/93015602/168895752-01a6ef15-62ae-4a43-a472-4aa9e47721c9.png">
-(files used:  [index.html](https://github.com/RagingRyann/group_project/blob/main/index.html), [style.css](https://github.com/RagingRyann/group_project/blob/main/style.css))
+(files used:  [index.html](https://github.com/RagingRyann/group_project/blob/main/webpage/index.html) , [style.css](https://github.com/RagingRyann/group_project/blob/main/webpage/style.css) , [charts.js](https://github.com/RagingRyann/group_project/blob/main/webpage/charts.js) , [link to Tableau dashboard 1](https://public.tableau.com/shared/QKNKRGSJG?:display_count=n&:origin=viz_share_link) , [link to Tableau dashboard 2](https://public.tableau.com/views/group_project_a/Sheet5?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) )
 
 ## Resources:
 
-* Data Sources: 
+Data Sources: 
     - [heart.csv](https://github.com/RagingRyann/group_project/blob/main/resources/heart.csv)
     - [Link to Kaggle Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset?select=heart.csv)
     - [heart_clean.csv](https://github.com/RagingRyann/group_project/blob/main/resources/heart_clean.csv) (renamed columns to match pgAdmin)
@@ -69,6 +65,8 @@ Secondary ML Model (file used:  [Heart_ML_RandomForest.ipynb](https://github.com
 - Top Modifiable features: "Cholesterol" and "Blood Pressure" 
 
 <img width="234" alt="Screen Shot 2022-05-24 at 7 42 51 PM" src="https://user-images.githubusercontent.com/93015602/170168693-34a61be8-7161-4a83-82e5-e97530fb4606.png">
+
+[RFV1_data.csv](https://github.com/RagingRyann/group_project/blob/main/resources/RFV1_data.csv) (used to create Tableau heatmap)
 
 Database:
 - Uses [PostgreSQL database](https://github.com/RagingRyann/group_project/tree/main/postgresql).
