@@ -5,7 +5,7 @@ An analysis of heart disease data from 1988 using four hospital databases: Cleve
 
 * Outline: 
     - [index.html](https://github.com/RagingRyann/group_project/blob/main/webpage/index.html) /[GitHub Pages](https://ragingryann.github.io/group_project/): To visualize final dashboard
-    - [heart_data2_sql.ipynb](https://github.com/RagingRyann/group_project/blob/main/Database/heart_data_to_sql_v2.ipynb): To visualize data cleaning and SQL database export
+    - [heart_data_to_sql_v2.ipynb](https://github.com/RagingRyann/group_project/blob/main/Database/heart_data_to_sql_v2.ipynb): To visualize data cleaning and SQL database export
     - [heart_ML_LogReg.ipynb](https://github.com/RagingRyann/group_project/blob/main/Machine%20Learning/Heart_ML_LogReg.ipynb), [heart_ML_RandomForest.ipynb](https://github.com/RagingRyann/group_project/blob/main/Machine%20Learning/Heart_ML_RandomForest.ipynb):  Machine learning models
     - [ETL.ipynb](https://github.com/RagingRyann/group_project/blob/main/ETL.ipynb):  Data Exploration
 
