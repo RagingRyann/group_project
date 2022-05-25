@@ -18,16 +18,16 @@ An analysis of heart disease data from 1988 using four hospital databases: Cleve
 ## Resources:
 
 Data Sources: 
-    - [heart.csv](https://github.com/RagingRyann/group_project/blob/main/resources/heart.csv)
+  - [heart.csv](https://github.com/RagingRyann/group_project/blob/main/resources/heart.csv)
     
-    - [Link to Kaggle Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset?select=heart.csv) 
+  - [Link to Kaggle Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset?select=heart.csv) 
     
-    - [heart_clean.csv](https://github.com/RagingRyann/group_project/blob/main/resources/heart_clean.csv) (renamed columns to match pgAdmin)
+  - [heart_clean.csv](https://github.com/RagingRyann/group_project/blob/main/resources/heart_clean.csv) (renamed columns to match pgAdmin)
 
 ## Software: 
 
-    - Languages: HTML, CSS, JS, Python, Pandas
-    - Jupyter Notebook, PostgreSQL, Tableau
+    - Languages: HTML, CSS, JS, Python
+    - Pandas, Jupyter Notebook, PostgreSQL, Tableau
     
 ## Content:
 
