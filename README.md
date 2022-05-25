@@ -26,8 +26,8 @@ Data Sources:
 
 ## Software: 
 
-    - Languages: HTML, CSS, JS, Python
-    - Pandas, Jupyter Notebook, PostgreSQL, Tableau
+   - Languages: HTML, CSS, JS, Python
+   - Pandas, Jupyter Notebook, PostgreSQL, Tableau
     
 ## Content:
 
