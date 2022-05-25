@@ -77,7 +77,7 @@ Database:
 
 - ![image](https://user-images.githubusercontent.com/90944163/169930136-9b68c406-3b4b-4929-9614-697e38041565.png)
 
-- ![Screen Shot 2022-05-23 at 8 34 33 PM](https://user-images.githubusercontent.com/90944163/169930993-dfdb9d88-5af5-48e8-b944-18c98f3564ff.png) (file used:  [heart_data_to_sql.ipynb](https://github.com/RagingRyann/group_project/blob/main/Database/heart_data_to_sql.ipynb))
+- ![Screen Shot 2022-05-23 at 8 34 33 PM](https://user-images.githubusercontent.com/90944163/169930993-dfdb9d88-5af5-48e8-b944-18c98f3564ff.png) (file used:  [heart_data_to_sql_v2.ipynb](https://github.com/RagingRyann/group_project/blob/main/Database/heart_data_to_sql_v2.ipynb))
 
 Technologies:
 - Jupyter Notebook / Pandas: Used for data exploration and Machine Learning analysis.
