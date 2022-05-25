@@ -68,7 +68,7 @@ Secondary ML Model (file used:  [Heart_ML_RandomForest.ipynb](https://github.com
 - Top 3 features: "Chest Pain", "Number of Vessels Occluded", "ST Depression";
 - Top Modifiable features: "Cholesterol" and "Blood Pressure" (See Fig ???);
 
-<img width="161" alt="Screen Shot 2022-05-21 at 10 31 07 AM" src="https://user-images.githubusercontent.com/93015602/169662830-e1131d89-496a-4106-890b-21d206532822.png">
+<img width="234" alt="Screen Shot 2022-05-24 at 7 42 51 PM" src="https://user-images.githubusercontent.com/93015602/170168693-34a61be8-7161-4a83-82e5-e97530fb4606.png">
 
 Database:
 - Uses PostgreSQL database.
