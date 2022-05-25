@@ -11,7 +11,7 @@ An analysis of heart disease data from 1988 using four hospital databases: Cleve
 
 [link to Google Slides](https://docs.google.com/presentation/d/1ngo6tRvbdELgjAdtwzgYFL6trayqPmxuBI8svCjsym4/edit?usp=sharing)
 
-[Dashboard Link](https://ragingryann.github.io/group_project/)
+Dashboard: 
 <img width="1292" alt="Screen Shot 2022-05-17 at 12 35 36 PM" src="https://user-images.githubusercontent.com/93015602/168895752-01a6ef15-62ae-4a43-a472-4aa9e47721c9.png">
 (files used:  [index.html](https://github.com/RagingRyann/group_project/blob/main/webpage/index.html) , [style.css](https://github.com/RagingRyann/group_project/blob/main/webpage/style.css) , [charts.js](https://github.com/RagingRyann/group_project/blob/main/webpage/charts.js) , [link to Tableau dashboard 1](https://public.tableau.com/shared/QKNKRGSJG?:display_count=n&:origin=viz_share_link) , [link to Tableau dashboard 2](https://public.tableau.com/views/group_project_a/Sheet5?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) )
 
