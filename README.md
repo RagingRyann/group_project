@@ -51,10 +51,10 @@ Data Sources:
 ![thal_value_distrib](https://user-images.githubusercontent.com/96348953/169702042-23ab0418-b4dc-421f-a0b9-f1b8e6384b92.PNG)
 
 7. Preliminary ML Model (File used:  [Heart_ML_LogReg.ipynb](https://github.com/RagingRyann/group_project/blob/main/Machine%20Learning/Heart_ML_LogReg.ipynb):
-- uses logistical regression to predict target accuracy. 
+- uses logistic regression to predict target accuracy. 
     - Features: Columns 1-13 (ie. Age, Sex, Chest pain, Cholesterol Level, Fasting blood glucose, etc.)
     - Target: Column 14 (ie. Presence of Heart Disease)
-    - Why?: Logistcal Regression was chosen secondary to the binary outcome of the dataset being used (ie. Presence or absence of Heart Disease).
+    - Why?: Logistic Regression was chosen secondary to the binary outcome of the dataset being used (ie. Presence or absence of Heart Disease).
     - Accuracy Outcome: 83%
 
 Secondary ML Model (file used:  [Heart_ML_RandomForest.ipynb](https://github.com/RagingRyann/group_project/blob/main/Machine%20Learning/Heart_ML_RandomForest.ipynb))
