@@ -6,10 +6,10 @@ function init() {
 
 	// Use the list of sample ages to populate the select options
 
-	d3.csv("heart_clean.csv").then((data) => {
+	d3.csv("duplicates_removed_data.csv").then((data) => {
 		dataset = data
 		console.log(data);
-		var sampleAges = data.map(person => person.age);
+		var sampleAges = data.map(person => person.id);
 		console.log(sampleAges);
 
 		var sampleAgesSorted = sampleAges.sort((a,b) => a-b);
@@ -46,7 +46,7 @@ function buildMetadata(age) {
 	var riskFactors = dataset;
 	console.log(riskFactors);
 	// Filter the data for the object with the desired sample number
-	var result = riskFactors.find(sampleObj => sampleObj.age == age);
+	var result = riskFactors.find(sampleObj => sampleObj.id == age);
 
 	// Use d3 to select the panel with id of `#sample-metadata`
 	var PANEL = d3.select("#sample-metadata");
@@ -71,7 +71,7 @@ function buildCharts(age) {
 	var sampledata = dataset;
 
 	// 4. Create a variable that filters the samples for the object with the desired sample number.
-	var firstSample = sampledata.find(sampleObj => sampleObj.age == age);
+	var firstSample = sampledata.find(sampleObj => sampleObj.id == age);
 
 	var chole = firstSample.serum_cholesterol;
 	console.log(chole);
