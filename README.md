@@ -22,7 +22,7 @@ Data Sources:
     
   - [Link to Kaggle Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset?select=heart.csv) 
     
-  - [heart_clean.csv](https://github.com/RagingRyann/group_project/blob/main/resources/heart_clean.csv) (renamed columns to match pgAdmin)
+  - [heart_clean.csv](https://github.com/RagingRyann/group_project/blob/main/heart_clean.csv)(renamed columns to match pgAdmin)
 
 ## Software: 
 
