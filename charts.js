@@ -5,11 +5,10 @@ function init() {
 	var selector = d3.select("#selDataset");
 
 	// Use the list of sample ages to populate the select options
-<<<<<<< HEAD
+
 	d3.csv("heart_clean.csv").then((data) => {
-=======
+
 	d3.csv("../resources/heart_clean.csv").then((data) => {
->>>>>>> d54d390a691f5d86929b18a713e54c5ff63cfe7c
 		dataset = data
 		console.log(data);
 		var sampleAges = data.map(person => person.age);
