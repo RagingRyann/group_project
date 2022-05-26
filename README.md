@@ -66,7 +66,7 @@ Secondary ML Model (file used:  [Heart_ML_RandomForest.ipynb](https://github.com
 - Top 3 features: "Chest Pain", "Number of Vessels Occluded", "ST Depression";
 - Top Modifiable features: "Cholesterol" and "Blood Pressure" 
 
-<img width="234" alt="Screen Shot 2022-05-24 at 7 42 51 PM" src="https://user-images.githubusercontent.com/93015602/170168693-34a61be8-7161-4a83-82e5-e97530fb4606.png">
+<img width="257" alt="Screen Shot 2022-05-25 at 8 19 20 PM" src="https://user-images.githubusercontent.com/90944163/170395454-185a09b0-9a79-45ca-8904-bf34c17df8ff.png">
 
 [RFV1_data.csv](https://github.com/RagingRyann/group_project/blob/main/resources/RFV1_data.csv) (used to create Tableau heatmap)
 
