@@ -1,5 +1,5 @@
 # Group_Project
-
+** PLEASE NOTE PER TA/INSTRUCTOR, COMMITS NEEDED HAVE BEEN MET FOR PHASE 3. 
 # Project Overview:
 An analysis of heart disease data from 1988 using four hospital databases: Cleveland, Hungary, Switzerland, and Long Beach V. It contains 76 attributes, including the predicted attribute, but all published experiments refer to a subset of 14 features. The "target" field refers to the presence or absence of heart disease in the patient. 
 
@@ -68,6 +68,8 @@ Secondary ML Model (file used:  [Heart_ML_RandomForest.ipynb](https://github.com
 
 <img width="257" alt="Screen Shot 2022-05-25 at 8 19 20 PM" src="https://user-images.githubusercontent.com/90944163/170395454-185a09b0-9a79-45ca-8904-bf34c17df8ff.png">
 
+- Given the 100% accuracy of the Random Forest Model we chose this as our machine learning algorithm. A heatmap demonstrating feature importance was also created. 
+
 [RFV1_data.csv](https://github.com/RagingRyann/group_project/blob/main/resources/RFV1_data.csv) (used to create Tableau heatmap)
 
 Database:
@@ -84,3 +86,6 @@ Technologies:
 - Postgres / pgAdmin / AWS: Used to host data on server.
 - Tableau: Used to display interactive information via data visualizations.
 
+Communication Protocol:
+- Technology / Software communication: Heart.csv was read as dataframe into Pandas using Python; ETL was performed and exported to SQL database on AWS; Tableau was utilized to perform data visualizations which were then displayed using JavaScript / HTML / CSS on index.html file. 
+- Group communication: Email, Text, Slack, Zoom
