@@ -4,6 +4,8 @@ ETL.txt
 # Adding config.py file.
 config.py
 
+# Adding DS_store
+.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
