@@ -88,4 +88,4 @@ Technologies:
 
 Communication Protocol:
 - Technology / Software communication: Heart.csv was read as dataframe into Pandas using Python; ETL was performed and exported to SQL database on AWS; Tableau was utilized to perform data visualizations which were then displayed using JavaScript / HTML / CSS on index.html file. 
-- Group communication: Email, Text, Slack, Zoom
+
