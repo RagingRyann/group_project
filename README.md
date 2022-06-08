@@ -1,4 +1,4 @@
-# Group_Project
+# Heart Disease Predictability
 
 # Project Overview:
 An analysis of heart disease data from 1988 using four hospital databases: Cleveland, Hungary, Switzerland, and Long Beach V. It contains 76 attributes, including the predicted attribute, but all published experiments refer to a subset of 14 features. The "target" field refers to the presence or absence of heart disease in the patient. 
