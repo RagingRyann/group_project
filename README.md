@@ -12,7 +12,7 @@ This heart disease predictability project is an analysis of heart disease data f
 [link to Google Slides](https://docs.google.com/presentation/d/1ngo6tRvbdELgjAdtwzgYFL6trayqPmxuBI8svCjsym4/edit?usp=sharing)
 
 Dashboard: 
-<img width="1292" alt="Screen Shot 2022-05-17 at 12 35 36 PM" src="https://user-images.githubusercontent.com/93015602/168895752-01a6ef15-62ae-4a43-a472-4aa9e47721c9.png">
+![image](https://user-images.githubusercontent.com/90944163/172693132-4d18e669-12b9-406a-8e22-c3b0c8068e12.png)
 (files used:  [index.html](https://github.com/RagingRyann/group_project/blob/main/index.html) , [style.css](https://github.com/RagingRyann/group_project/blob/main/style.css) , [charts.js](https://github.com/RagingRyann/group_project/blob/main/charts.js) , [Tableau Story](https://public.tableau.com/app/profile/adam.i.kopsidas/viz/adam_tableau/Story2?publish=yes))
 
 ## Resources:
