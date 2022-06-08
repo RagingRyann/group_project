@@ -1,7 +1,7 @@
 # Heart Disease Predictability
 
 # Project Overview:
-An analysis of heart disease data from 1988 using four hospital databases: Cleveland, Hungary, Switzerland, and Long Beach V. It contains 76 attributes, including the predicted attribute, but all published experiments refer to a subset of 14 features. The "target" field refers to the presence or absence of heart disease in the patient. 
+This heart disease predictability project is an analysis of heart disease data from 1988 using four hospital databases: Cleveland, Hungary, Switzerland, and Long Beach V. It contains 76 attributes, including the predicted attribute, but all published experiments refer to a subset of 14 features. The "target" field refers to the presence or absence of heart disease in the patient. 
 
 * Outline: 
     - [index.html](https://github.com/RagingRyann/group_project/blob/main/index.html) /[GitHub Pages](https://ragingryann.github.io/group_project/): To visualize final dashboard
@@ -26,8 +26,10 @@ Data Sources:
 
 ## Software: 
 
-   - Languages: HTML, CSS, JS, Python
-   - Pandas, Jupyter Notebook, PostgreSQL, Tableau
+   - Languages: HTML, CSS, JavaScript, Python
+   - Libraries/Tools:  Pandas, Jupyter Notebook, Scikit-Learn
+   - Database/Visualization:  PostgreSQL, Tableau, AWS
+   - Machine learning algorithms:  Logistic regression and random forest
     
 ## Content:
 
@@ -41,7 +43,7 @@ Data Sources:
     - What, if any, are the gender-specific differences?
     - What, if any, risk factors are modifiable?
 
-5. Description of data exploration phase: Data was explored using jupyter notebook and pandas; no null values were present; all data points were utilized. File used:  [ETL.ipynb](https://github.com/RagingRyann/group_project/blob/main/ETL.ipynb)
+5. Description of data exploration phase: Data was explored using Jupyter Notebook and Pandas; no null values were present and all data points were utilized. File used:  [ETL.ipynb](https://github.com/RagingRyann/group_project/blob/main/ETL.ipynb)
 
 ![hd_stats_table](https://user-images.githubusercontent.com/96348953/169701996-b0c8bd06-4017-42ab-9d61-3485d974ce0e.PNG)
 
@@ -51,18 +53,18 @@ Data Sources:
 ![thal_value_distrib](https://user-images.githubusercontent.com/96348953/169702042-23ab0418-b4dc-421f-a0b9-f1b8e6384b92.PNG)
 
 7. Preliminary ML Model (File used:  [Heart_ML_LogReg.ipynb](https://github.com/RagingRyann/group_project/blob/main/Machine%20Learning/Heart_ML_LogReg.ipynb):
-- uses logistic regression to predict target accuracy. 
-    - Features: Columns 1-13 (ie. Age, Sex, Chest pain, Cholesterol Level, Fasting blood glucose, etc.)
-    - Target: Column 14 (ie. Presence of Heart Disease)
-    - Why?: Logistic Regression was chosen secondary to the binary outcome of the dataset being used (ie. Presence or absence of Heart Disease).
+- Uses logistic regression to predict target accuracy. 
+    - Features: Columns 1-13 (i.e. Age, Sex, Chest pain, Cholesterol Level, Fasting Blood Glucose, etc.)
+    - Target: Column 14 (i.e. Presence of Heart Disease)
+    - Why?: Logistic Regression was chosen secondary to the binary outcome of the dataset being used (i.e. presence or absence of heart disease).
     - Accuracy Outcome: 83%
 
 Secondary ML Model (file used:  [Heart_ML_RandomForest.ipynb](https://github.com/RagingRyann/group_project/blob/main/Machine%20Learning/Heart_ML_RandomForest.ipynb))
 - Uses Random Forest to predict target accuracy and determine feature hierarchy importance. 
-    - Features: Columns 1-13 (ie. Age, Sex, Chest pain, Cholesterol Level, Fasting blood glucose, etc.)
-    - Target: Column 14 (ie. Presence of Heart Disease)
-    - Why: RF was used in order to rank features of importance to determine modifiable vs non-modifiable risk factors.
-- Accuracy Outcome: 100% (concern for overfitting given accuracy score). 
+    - Features: Columns 1-13 (i.e. Age, Sex, Chest pain, Cholesterol Level, Fasting blood glucose, etc.)
+    - Target: Column 14 (i.e. Presence of Heart Disease)
+    - Why: Random Forest was used in order to rank features of importance to determine modifiable vs non-modifiable risk factors.
+- Accuracy Outcome: 100% across both training and testing data. 
 - Top 3 features: "Chest Pain", "Number of Vessels Occluded", "ST Depression";
 - Top Modifiable features: "Cholesterol" and "Blood Pressure" 
 
@@ -84,7 +86,7 @@ Database:
 Technologies:
 - Jupyter Notebook / Pandas: Used for data exploration and Machine Learning analysis.
 - Postgres / pgAdmin / AWS: Used to host data on server.
-- Tableau: Used to display interactive information via data visualizations.
+- Tableau / JavaScript / HTML/ CSS: Used to display interactive information via data visualizations.
 
 Communication Protocol:
 - Technology / Software communication: Heart.csv was read as dataframe into Pandas using Python; ETL was performed and exported to SQL database on AWS; Tableau was utilized to perform data visualizations which were then displayed using JavaScript / HTML / CSS on index.html file. 
